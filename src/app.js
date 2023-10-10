@@ -123,10 +123,10 @@ function SortByAge() {
         let temp = players[i];
         players[i] = players[j];
         players[j] = temp;
-      }
+      
     }
   }
-}
+    }}
 //Challenge 2 - Sort players beloging to _____ team in descending order of awards won
 
 function FilterByTeamxSortByNoOfAwards(team) {
@@ -146,8 +146,8 @@ function FilterByTeamxSortByNoOfAwards(team) {
       }
     }
   }
-  return filteredPlayers;
-}
+      return filteredPlayers;}
+
 
 //Judgement 1 - Sort players that have won _______ award _____ times and belong to _______ country in alphabetical order of their names
 
